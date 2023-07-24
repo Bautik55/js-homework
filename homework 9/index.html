@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Каунтер</h1>
+<p>Текущее значение: <span id="counter">0</span></p>
+<button onclick="incrementCounter()">Увеличить</button>
+<button onclick="showCustomAlert()">Умножить</button>
+<input type="number" id="multiplier" placeholder="Введите число">
+<div id="customAlert" class="hidden">
+    <span id="alertText"></span>
+    <button onclick="closeCustomAlert()">Закрыть</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
